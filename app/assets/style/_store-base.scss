@@ -1,0 +1,67 @@
+.store{
+    padding: 96px 0 160px;
+
+    .container h2{
+        font-size: $font-size-48;
+        line-height: 80px;
+        font-weight: bold;
+        padding-left: 16px;
+        border-left: 8px solid $color-red;
+    }
+    .choose{
+        display: flex;
+        padding: 65px 0 32px;
+
+        h3{
+            font-size: $font-size-24;
+            line-height: $line-height-30;
+            font-weight: bold;
+            padding-right: 22px;
+        }
+        .area{
+            font-size: $font-size-18;
+            line-height: 26px;
+            color:$color-gray;
+            border: 1px solid $color-gray-white;
+            padding: 8px 179px 11px 19px;
+        }
+    }
+
+    .side{
+        display: flex;
+
+        .content{
+            margin-right: 30px;
+    
+            .locate1-img{
+                width: 445px;
+                height: 224px;
+            }
+
+            .card-title{
+
+                h3{
+                    font-size: $font-size-24;
+                    line-height: $line-height-36;
+                    padding: 12px 0 12px 24px;
+                    border: 1px solid $color-Transparent-black;
+                }    
+                
+                .card-body{
+                    padding: 16px 0 8px 24px;
+                    border: 1px solid $color-Transparent-black;
+
+                    .card-item{
+                        font-size: $font-size-20;
+                        line-height: $line-height-30;
+                        padding-bottom: 8px;
+
+                        .icon-img{
+                            padding-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

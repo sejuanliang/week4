@@ -1,0 +1,143 @@
+.header{
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 88px;
+
+    h1{
+        float: left;
+        a{
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png);
+            width: 80px;
+            height: 48px;
+            display: block;
+            text-indent: 101%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    ul{
+        display: flex;
+
+        li a{
+            font-size: $font-size-20;
+            line-height: $line-height-30;
+            padding: 38px 32px 41px;
+
+            &:hover{
+                background-color: $color-black;
+                color: $color-white;
+            } 
+        } 
+    }
+}
+
+.footer{
+    background-color: $color-primary;
+    position: relative;
+
+    .df{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .menu{
+            display: flex;
+            padding-top: 44px;
+
+            li{
+                padding-right: 48px;
+
+                a{
+                    font-size: $font-size-16;
+                    line-height: $line-height-24;
+
+                    &:hover{
+                        color: $color-black;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .icon-menu{
+            display: flex;
+            padding-top: 32px;
+
+            li{
+                padding-left: 32px;
+            }
+        }
+    }
+    .information{
+        display: flex;
+        padding: 36px 0 24px 0;
+        border-bottom: 1px solid $color-white;
+
+        ul li{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 16px;
+
+            a{
+                font-size: $font-size-36;
+                line-height: $line-height-54;
+                padding-left: 16px;
+
+                &:hover{
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    .trademark{
+        color: $color-white;
+        padding: 32px 0 40px;
+
+        .trademark-item{
+            display: flex;
+            justify-content: space-between;
+
+            li{
+                font-size: $font-size-16;
+                line-height: $line-height-24;
+            }
+
+            .trademark-list{
+                display: flex;
+                justify-content: flex-end;
+
+                li{
+                    padding-left: 48px;
+                    font-size: $font-size-14;
+                    line-height: $line-height-21;
+                }
+            }
+        }
+    }
+}
+
+.phone{
+    width: 36px;
+    height: 36px;
+}
+
+.mail{
+    width: 40px;
+    height: 32px;
+    margin: auto;
+}
+
+.db{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
